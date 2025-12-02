@@ -1,0 +1,22 @@
+Start Program
+      ↓
+Display Heading
+      ↓
+Ask User for Name
+      ↓
+Initialize score = 0
+      ↓
+Ask Questions 1 to 20
+(using askquestion function)
+      ↓
+Add Returned Value to Score
+      ↓
+Calculate Final Score & %
+      ↓
+Display Result
+      ↓
+      Replay?
+   ┌──────┴──────┐
+   Yes          No
+   ↓             ↓
+Replay Program   End
