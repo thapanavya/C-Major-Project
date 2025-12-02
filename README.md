@@ -1,41 +1,105 @@
-## C-Major-Project
-
 # PERSONA: The BTS Online Quiz 💜🎤
-Welcome to PERSONA, a BTS-themed interactive quiz built entirely in C!
-If you've ever wondered what type of ARMY you are->
-Baby ARMY, Dynamite ARMY, or the legendary OG ARMY, this quiz is here to reveal your true destiny.✨
 
-# Repositary Structure
+## PERSONA: The BTS Online Quiz
+This project is an interactive, console-based quiz application developed in **C**. It tests the user's knowledge about the globally renowned K-Pop group **BTS** through 20 multiple-choice questions. Each correct answer earns the user **0.5 marks**, and based on the total score, the program assigns an ARMY rank — **Baby ARMY**, **Dynamite ARMY**, or **OG ARMY**. The project demonstrates structured programming concepts in C such as **functions**, **loops**, **conditional statements**, and **user input handling**.
+
+## Repository Structure
+
+```
 /
-|-- src/              (all .c files)
-|-- include/          (all .h files)
-|-- docs/             (project report, flowcharts, assets)
-|-- assets/           (optional: screenshots, diagrams)
-|-- README.md         (this file)
-|-- sample_input.txt  (optional test inputs)
+|-- src/               (contains all .c source files)
+|-- include/           (header files, if any)
+|-- docs/              (project report, flowcharts, diagrams)
+|-- assets/            (screenshots, visuals, optional assets)
+|-- README.md          (this file)
+|-- sample_input.txt   (optional test input data)
+```
 
-# About the Project:
-This project is a console-based quiz application where players answer 20 multiple-choice questions related to BTS, from members and debut era to albums, solos, and iconic sayings. Each correct answer earns you 0.5 marks, and your final score determines your ARMY rank.
+---
 
-The game is designed to be:
-Fun, simple, replayable and perfect for BTS fans and C programming beginners.
+## **Getting Started**
 
-# Features:
-1. 20 BTS Trivia Questions
-2. Scoring System based on correct answers
-3. Replay Option without restarting the app
-4.Accepts uppercase or lowercase answers
-5. Personalized result messages based on your score
-6. Uses functions, loops, and conditional statements great example of structured programming
-7. ARMY Levels
-8. Your results depend on your score
+Follow the steps below to download, compile, and run the quiz:
 
-# Score Range	ARMY Type	Description:
-0 – 3	BABY ARMY	Welcome to the fandom! You're just getting started 💫
-4 – 7	DYNAMITE ARMY	You're glowing with knowledge! Keep going 🎇
-8 – 10	OG ARMY	BTS runs in your veins. Legendary behavior 🔥
+### **Prerequisites**
 
-# Why This Project?
-Programming becomes easier and more exciting when it's connected to something you love. This project combines logic + creativity + passion, proving that even a simple C program can be engaging, personal, and meaningful.
+* A C compiler such as **GCC**
+* Code editor (Dev-C++, Code::Blocks, VS Code, etc.)
 
-Thankyou and Borahae 💜
+### **Steps**
+
+1️⃣ Clone the repository:
+
+```bash
+git clone https://github.com/your-username/bts-online-quiz.git
+```
+
+2️⃣ Navigate to the project directory:
+
+```bash
+cd bts-online-quiz/src
+```
+
+3️⃣ Compile the program:
+
+```bash
+gcc btsquiz.c -o btsquiz
+```
+
+4️⃣ Run the executable:
+
+```bash
+./btsquiz
+```
+
+---
+
+## **Build Instructions**
+
+1. Ensure your system has a working C compiler.
+2. Place all `.c` files inside the **src** folder and required `.h` files inside **include**.
+3. Use the GCC command to compile and generate the executable.
+4. Run the output file and interact with the quiz.
+
+---
+
+## **Usage**
+
+Once the program starts:
+
+* Enter your name when prompted
+* Answer each question by typing **A/B/C/D**
+* You may replay the quiz as many times as you want
+* At the end, your score, percentage, and ARMY level will be displayed
+
+Sample Output:
+
+```
+Your Score: 9.0 / 10
+Percentage: 90.00%
+You are an OG ARMY I see. BTS runs in your veins!
+```
+
+---
+
+## **Contributing**
+
+Contributions are welcome! If you wish to improve or expand the project:
+
+1. Fork this repository
+2. Create a new branch for your feature or bug fix
+3. Commit and push your changes
+4. Open a Pull Request describing the update
+
+Please ensure your contributions align with the current code structure and project theme.
+
+---
+
+## 💜 Borahae!
+
+If you're a BTS fan or a C language beginner, this quiz is the perfect mix of learning and fun.
+Run it. Play it. Share it. And find out what kind of ARMY you really are! 🎧
+
+---
+
+Would you like me to add **badges** (version, language, license, etc.) on top to make it look even more professional? 🏅
