@@ -17,9 +17,9 @@ Features:
 3. Replay Option without restarting the app
 4.Accepts uppercase or lowercase answers
 5. Personalized result messages based on your score
-6. Uses functions, loops, and conditional statements — great example of structured programming
+6. Uses functions, loops, and conditional statements great example of structured programming
 7. ARMY Levels
-8. Your results depend on your score:
+8. Your results depend on your score
 
 Score Range	ARMY Type	Description:
 0 – 3	BABY ARMY	Welcome to the fandom! You're just getting started 💫
