@@ -1,6 +1,4 @@
 # PERSONA: The BTS Online Quiz 💜🎤
-
-## PERSONA: The BTS Online Quiz
 This project is an interactive, console-based quiz application developed in **C**. It tests the user's knowledge about the globally renowned K-Pop group **BTS** through 20 multiple-choice questions. Each correct answer earns the user **0.5 marks**, and based on the total score, the program assigns an ARMY rank — **Baby ARMY**, **Dynamite ARMY**, or **OG ARMY**. The project demonstrates structured programming concepts in C such as **functions**, **loops**, **conditional statements**, and **user input handling**.
 
 ## Repository Structure
