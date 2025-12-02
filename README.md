@@ -16,44 +16,9 @@ This project is an interactive, console-based quiz application developed in **C*
 ---
 
 ## **Getting Started**
-
-Follow the steps below to download, compile, and run the quiz:
-
-### **Prerequisites**
-
-* A C compiler such as **GCC**
-* Code editor (Dev-C++, Code::Blocks, VS Code, etc.)
-
-### **Steps**
-
-1️⃣ Clone the repository:
-
-```bash
-git clone https://github.com/your-username/bts-online-quiz.git
-```
-
-2️⃣ Navigate to the project directory:
-
-```bash
-cd bts-online-quiz/src
-```
-
-3️⃣ Compile the program:
-
-```bash
-gcc btsquiz.c -o btsquiz
-```
-
-4️⃣ Run the executable:
-
-```bash
-./btsquiz
-```
-
----
+When you run the program, you will be shown a series of multiple-choice BTS questions. Each question has four options (A, B, C, D). To answer, simply type the letter of the option you think is correct and press Enter. Your score will be updated automatically after each question, and once all 20 questions are completed, the program will tell you your ARMY rank based on your performance.
 
 ## **Build Instructions**
-
 1. Ensure your system has a working C compiler.
 2. Place all `.c` files inside the **src** folder and required `.h` files inside **include**.
 3. Use the GCC command to compile and generate the executable.
@@ -62,14 +27,14 @@ gcc btsquiz.c -o btsquiz
 ---
 
 ## **Usage**
-
 Once the program starts:
-
 * Enter your name when prompted
 * Answer each question by typing **A/B/C/D**
 * You may replay the quiz as many times as you want
-* At the end, your score, percentage, and ARMY level will be displayed
-
+* After answering all questions, the program will show your total score and display a fun message such as:
+“You are a BABY ARMY!”
+“You are a DYNAMITE ARMY!”
+“You are an OG ARMY!”
 Sample Output:
 
 ```
@@ -81,23 +46,16 @@ You are an OG ARMY I see. BTS runs in your veins!
 ---
 
 ## **Contributing**
-
 Contributions are welcome! If you wish to improve or expand the project:
-
 1. Fork this repository
 2. Create a new branch for your feature or bug fix
 3. Commit and push your changes
 4. Open a Pull Request describing the update
-
 Please ensure your contributions align with the current code structure and project theme.
-
----
 
 ## 💜 Borahae!
 
 If you're a BTS fan or a C language beginner, this quiz is the perfect mix of learning and fun.
-Run it. Play it. Share it. And find out what kind of ARMY you really are! 🎧
-
+Run it. Play it. Share it. And find out what kind of ARMY you really are! 
 ---
 
-Would you like me to add **badges** (version, language, license, etc.) on top to make it look even more professional? 🏅
